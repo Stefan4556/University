@@ -1,0 +1,16 @@
+isPrimeAux(N, DIV):-DIV * DIV > N,
+                    !.
+isPrimeAux(N, DIV):-DIV * DIV =< N,
+                    N mod DIV =\= 0,
+                    DIV1 is DIV + 2,
+                    isPrimeAux(N, DIV1).
+
+isPrime(2):-!.
+isPrime(N):-N mod 2 =\= 0,
+            N > 2,
+            N < 9,
+            !.
+isPrime(N):-N mod 2 =\= 0,
+            N >= 9,
+            isPrimeAux(N, 3).
+

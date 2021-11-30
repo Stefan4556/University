@@ -1,0 +1,119 @@
+3.
+a. Sa se scrie un predicat care transforma o lista intr-o multime, in
+ordinea primei aparitii. Exemplu: [1,2,3,1,2] e transformat in [1,2,3].
+
+Model matematic:
+
+Modul de rezolvare este urmatorul: Functia ce returneaza multimea in ordinea primei aparitii este functia transforma_main ce apeleaza functia transforma care primeste ca si parametrii lista de numere si o lista vida ce retine numerele deja adaugate in multimea noastra. Astfel, la fiecare apel recursiv al functiei transforma primul element este verificat daca a fost pus in multime sau nu, in cazul in care nu a fost este adaugat si marcat acest lucru in copia din antetul functiei si se efectueaza apelul recursiv al sublistei, daca acesta exista, se efectueaza doar apelul recursiv al sublistei.
+
+cauta(c1, c2, ..., cn, l) = {		Fals				, n = 0
+			    {
+			    {		Adevarat			, n > 0 si c1 = l
+			    {
+			    {		cauta(c2 , ..., cn)		, altfel
+
+transforma_main(l1, ..., ln) = transforma(l1, l2, ..., ln, vida)
+
+transforma(l1, l2, ..., ln, copie) = { 		Vida							, n = 0
+				     {
+				     { 		l1 + transforma(l2, ..., ln, copie U(Reunit) l1)	, n > 0 si cauta(copie, l1) = fals
+				     {
+				     { 		transforma(l2, ..., ln)					, altfel
+
+Teste:
+
+	T1: [1, 2, 3, 1, 2] => [1, 2, 3]
+	Desfasurat: transforma([1,2,3,1,2],[]) = 1 + transforma([2,3,1,2],[1])
+					       = 2 + transforma([3,1,2],[1,2])
+					       = 3 + transforma([1,2],[1,2,3])
+					       = transforma([2],[1,2,3])
+					       = transforma([],[1,2,3])
+					       = []
+	T2: [1, 1, 1, 2, 2, 3, 3, 1, 2] => [1, 2, 3]
+	T3: [1, 2, 3, 3, 2, 1] => [1, 2, 3]
+	T4: [] => []
+
+b. Sa se scrie o functie care descompune o lista de numere intr-o lista de
+forma [ lista-de-numere-pare lista-de-numere-impare] (deci lista cu doua
+elemente care sunt liste de intregi), si va intoarce si numarul
+elementelor pare si impare.
+
+Modelul matematic:
+
+Modul de rezolvare este urmatorul: Functia ce returneaza cele 3 lucruri cerute in enunt si anume: lista de liste ce contin numere pare, respectiv numere impare, numarul de elemente pare si impare; este functia descompune_main ce apeleaza la randul ei functia descompune ce are ca si parametrii lista de numere, o lista vida pentru numerele pare, respectiv numerele impare, si doua variabile pentru a contoriza numarul acestora. Functia se opreste in momentul in care lista de numere este vida aceasta verificand daca pe parcurs numarul este par sau impar pentru a il adauga in lista de numere pare, respectiv numere impare si pentru a incrementa numarul numerelor pare, respectiv impare, la final returnandu-se o lista formata din 3 elemente: lista formata din 2 liste de numere, una pentru numere pare, una pentru numere impare, numarul de elemente pare si numarul de elemente impare.
+
+descompune_main(l1, l2, ..., ln) = descompune(l1, l2, ..., ln, vida, vida, 0, 0) 
+
+descompune(l1, l2, ..., ln, lis_p, lis_i, ct_p, ct_i) = {	Vida U ((Vida U lis_p U lis_i) U ct_p U ct_i)		, n = 0
+					       	     	{	
+					             	{	descompune(l2,...,ln, l1 U lis_p, lis_i, ct_p+1, ct_i) 	, n > 0 si l1 % 2 = 0
+					             	{	
+					             	{	descompune(l2,...,ln, lis_p, l1 U lis_i, ct_p, ct_i+1)  , altfel
+
+Teste:
+
+	T1: [1,2,3,4] => [[[4, 2], [3, 1]], 2, 2]
+	Desfasurat: descompune([1,2,3,4],vida,vida,0,0) = descompune([2,3,4],vida,[1],0,1)
+							= descompune([3,4],[2],[1],1,1)
+							= descompune([4],[2],[3,1],1,2)
+							= descompune([],[4,2],[3,1],2,2)
+							= [[[4,2],[3,1]], 2, 2]
+	T2: [2, 2, 4 ,4] => [[[4, 4, 2, 2], []], 4, 0]
+	T3: [1, 2] => [[[2], [1]], 1, 1]
+	T4: [] => [[[], []], 0, 0]
+-----------------------------------------------------------------------
+Coduri in Python:
+
+a.
+def transforma(l, copie):
+    
+    if len(l) == 0:
+        
+        return []
+    
+    else:
+        
+        el = l[0]
+        
+        if el not in copie:
+            
+            copie += [el];
+            return [el] + transforma(l[1:], copie)
+        
+        else:
+            
+            return transforma(l[1:], copie)
+
+l = transforma([1,1,1,2,2,3,3,1,2],[])
+print(l)
+--------------------------------------------------------------
+b1. def descompune(l, lp, li, ct):
+    
+    if len(l) == 0:
+        
+        return [lp] + [li]
+    
+    else:
+        
+        el = l[0]
+        
+        if el % 2 == 0:
+            
+            ct[0] += 1
+            return descompune(l[1:],lp + [el], li, ct)
+        
+        else:
+            
+            ct[1] += 1
+            return descompune(l[1:],lp, li + [el], ct)
+
+l = [1,2,3,4]
+lp = []
+li = []
+ct = [0,0]
+rez = descompune(l,lp,li,ct)
+print(rez)
+print(ct[0])
+print(ct[1])
+---------------------------------------------------------------
+b2. Mai exista o varianta in loc de lp si li sa ai o lista rez = [lp, li]
