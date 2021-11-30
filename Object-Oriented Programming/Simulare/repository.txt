@@ -1,0 +1,12 @@
+a
+a
+rosie
+1
+b
+b
+verde
+2
+c
+c
+galbena
+3
