@@ -1,0 +1,10 @@
+31,Hawaii,soare scump clasic,1200
+2,Sinaia,frig ieftin clasic,300
+1,Straja,frig scump,800
+3,Valcea,cald ieftin,100
+4,Bucuresti,decent scump,200
+5,Dragasani,ieftin clasic,100
+6,Pitesti,ieftin cald,150
+7,Slatina,moderat scump,100
+8,Drobeta,moderat cald,250
+9,Bacau,frig ieftin,50
