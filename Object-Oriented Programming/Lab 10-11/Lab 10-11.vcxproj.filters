@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Domain.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Repository.cpp">
+      <Filter>Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="Repo_lab.cpp">
+      <Filter>Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="Cos.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Teste.cpp">
+      <Filter>Teste</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="GUI.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="GUI.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{abfb73b4-5362-4e83-a6d8-4760a4902bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Repository">
+      <UniqueIdentifier>{51597790-9366-4173-bb2b-ed3e941015bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{d581e1fd-d6ea-42f9-857d-f048b09a072f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Template">
+      <UniqueIdentifier>{f12beb32-cd79-4087-b910-b8d976084da4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Teste">
+      <UniqueIdentifier>{eb22ba6b-8e3e-4e81-a43b-7920b162ac2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{8d5bfcf6-d2ae-4ada-ae67-23566301a0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{d91a37c3-f125-40ca-b537-399f573bd1eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model view">
+      <UniqueIdentifier>{a6551276-2b5a-443e-84b4-c30dfda279b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Domain.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Repository.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="RepoAbstract.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="Repo_lab.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="Cos.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Undo.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorDinamic.h">
+      <Filter>Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Teste.h">
+      <Filter>Teste</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Clasa_cu_observer.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TabelView.h">
+      <Filter>Model view</Filter>
+    </ClInclude>
+    <ClInclude Include="ListView.h">
+      <Filter>Model view</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="repository.txt" />
+    <Text Include="teste.txt" />
+  </ItemGroup>
+</Project>
