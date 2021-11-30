@@ -1,0 +1,21 @@
+[2021-04-20 23:09:04] [info] Start Program:
+Path:"C:\\Users\\stefan\\source\\repos\\Lab 6-7\\Debug\\Lab 6-7.exe"
+Arguments:
+Working directory: "C:\\Users\\stefan\\source\\repos\\Lab 6-7\\Lab 6-7\\"
+Modules: Selected: C:\Users\stefan\source\repos\Lab 6-7\Debug\Lab 6-7.exe Excluded: 
+Sources: Selected: C:\Users\stefan\source\repos\Lab 6-7\Lab 6-7 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: binary C:\Users\stefan\AppData\Local\Temp\njgmnh1t.m2p 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2021-04-20 23:09:04] [info] Module: C:\Users\stefan\source\repos\Lab 6-7\Debug\Lab 6-7.exe is selected because it matches selected pattern: C:\Users\stefan\source\repos\Lab 6-7\Debug\Lab 6-7.exe
+[2021-04-20 23:09:04] [info] ----------------------------------------------------
+[2021-04-20 23:09:04] [info] Coverage binary generated in file: C:\Users\stefan\AppData\Local\Temp\njgmnh1t.m2p
+[2021-04-20 23:09:04] [info] ----------------------------------------------------

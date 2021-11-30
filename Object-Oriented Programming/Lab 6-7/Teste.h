@@ -1,0 +1,1 @@
+void ruleaza_teste();
