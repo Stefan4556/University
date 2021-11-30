@@ -1,0 +1,6 @@
+100, road, 400.5
+200, road, 400.0
+600, tricicleta, 50.55
+300, bmx, 700
+400, mountain, 500
+500, bicla, 100

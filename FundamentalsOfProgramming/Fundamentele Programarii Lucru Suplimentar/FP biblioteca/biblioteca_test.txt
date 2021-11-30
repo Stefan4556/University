@@ -1,0 +1,5 @@
+1; Harap Alb; dadaaa; 1974
+2; Carte; Autor; 2012
+3; Mov; Hautor; 2013
+10; da; dadaaa; 10
+100; a; a; 100

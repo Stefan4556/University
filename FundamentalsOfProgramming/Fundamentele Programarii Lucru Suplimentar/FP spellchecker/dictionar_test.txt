@@ -1,0 +1,5 @@
+1, En, Today
+2, Ro, Cafea
+3, Fr, Baghete
+4, En, mere
+100, En, Friday

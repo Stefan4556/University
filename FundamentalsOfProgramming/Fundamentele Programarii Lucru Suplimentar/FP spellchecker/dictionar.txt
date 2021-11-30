@@ -1,0 +1,6 @@
+1, En, Today
+2, Ro, Cafea
+3, Fr, Baghete
+4, Ro, Masina
+5, Ro, mere
+100, En, Car
