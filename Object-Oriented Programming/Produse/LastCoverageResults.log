@@ -1,0 +1,21 @@
+[2021-06-08 20:34:00] [info] Start Program:
+Path:"C:\\Users\\stefa\\source\\repos\\Produse\\x64\\Debug\\Produse.exe"
+Arguments:
+Working directory: "C:\\Users\\stefa\\source\\repos\\Produse\\Produse\\"
+Modules: Selected: C:\Users\stefa\source\repos\Produse\x64\Debug\Produse.exe Excluded: 
+Sources: Selected: C:\Users\stefa\source\repos\Produse\Produse Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: binary C:\Users\stefa\AppData\Local\Temp\quktry3x.4ag 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2021-06-08 20:34:00] [info] Module: C:\Users\stefa\source\repos\Produse\x64\Debug\Produse.exe is selected because it matches selected pattern: C:\Users\stefa\source\repos\Produse\x64\Debug\Produse.exe
+[2021-06-08 20:34:08] [info] ----------------------------------------------------
+[2021-06-08 20:34:08] [info] Coverage binary generated in file: C:\Users\stefa\AppData\Local\Temp\quktry3x.4ag
+[2021-06-08 20:34:08] [info] ----------------------------------------------------

@@ -1,0 +1,4 @@
+1 3 X-OX-XX-O X Terminat
+2 3 X-OX-O-OO X In derulare
+3 3 X-X-O-X-O O Neinceput
+4 3 O-OO-O-OO O Terminat

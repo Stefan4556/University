@@ -1,0 +1,8 @@
+1
+b
+b
+pop
+2
+a
+a
+rock

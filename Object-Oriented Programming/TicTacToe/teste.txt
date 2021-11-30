@@ -1,0 +1,5 @@
+1 3 XX-XO-XOO X Terminat
+2 3 X-OXO-XOO X Inderulare
+3 3 XXXXO-XOO X Neinceput
+4 3 X-OOO-XXO X Terminat
+4 3 XOXOXOXOX X Neinceput

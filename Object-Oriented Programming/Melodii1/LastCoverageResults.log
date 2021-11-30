@@ -1,0 +1,21 @@
+[2021-06-08 16:40:08] [info] Start Program:
+Path:"C:\\Users\\stefa\\source\\repos\\Melodii1\\x64\\Debug\\Melodii1.exe"
+Arguments:
+Working directory: "C:\\Users\\stefa\\source\\repos\\Melodii1\\Melodii1\\"
+Modules: Selected: C:\Users\stefa\source\repos\Melodii1\x64\Debug\Melodii1.exe Excluded: 
+Sources: Selected: C:\Users\stefa\source\repos\Melodii1\Melodii1 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: binary C:\Users\stefa\AppData\Local\Temp\fmxkfdnb.vb1 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2021-06-08 16:40:08] [info] Module: C:\Users\stefa\source\repos\Melodii1\x64\Debug\Melodii1.exe is selected because it matches selected pattern: C:\Users\stefa\source\repos\Melodii1\x64\Debug\Melodii1.exe
+[2021-06-08 16:40:18] [info] ----------------------------------------------------
+[2021-06-08 16:40:18] [info] Coverage binary generated in file: C:\Users\stefa\AppData\Local\Temp\fmxkfdnb.vb1
+[2021-06-08 16:40:18] [info] ----------------------------------------------------

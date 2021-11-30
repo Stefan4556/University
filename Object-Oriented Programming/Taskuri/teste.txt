@@ -1,0 +1,13 @@
+1
+a
+Bob
+Man
+open
+2
+b
+Michael
+closed
+3
+a
+Bob
+closed
