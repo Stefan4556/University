@@ -1,0 +1,35 @@
+Matricea de adiacenta este: 
+0 1 0 0 
+1 0 1 1 
+0 1 0 1 
+0 1 1 0 
+
+Lista de adiacenta este: 
+2 0 0 0 
+1 3 4 0 
+2 4 0 0 
+2 3 0 0 
+
+Matricea de incidenta este: 
+1 0 0 0 
+1 1 1 0 
+0 1 0 1 
+0 0 1 1 
+
+Lista de adiacenta este: 
+2 0 0 0 
+1 3 4 0 
+2 4 0 0 
+2 3 0 0 
+
+Matricea de adiacenta este: 
+0 1 0 0 
+1 0 1 1 
+0 1 0 1 
+0 1 1 0 
+
+Matricea de incidenta este: 
+1 0 0 0 
+1 1 1 0 
+0 1 0 1 
+0 0 1 1 

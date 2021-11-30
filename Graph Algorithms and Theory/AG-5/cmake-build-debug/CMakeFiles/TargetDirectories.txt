@@ -1,0 +1,4 @@
+/Users/stefan/CLionProjects/AG-5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/stefan/CLionProjects/AG-5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/stefan/CLionProjects/AG-5/cmake-build-debug/CMakeFiles/pb3.dir
+/Users/stefan/CLionProjects/AG-5/cmake-build-debug/CMakeFiles/pb1.dir
