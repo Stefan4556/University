@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/stefan/CLionProjects/AG-5/pb1.cpp
+cstdio
+-
+queue
+-
+cstring
+-
+vector
+-
+iostream
+-
+fstream
+-
+
