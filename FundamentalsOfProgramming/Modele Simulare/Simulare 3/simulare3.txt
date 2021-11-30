@@ -1,0 +1,10 @@
+1,Peisaj cu case de tara,Stefan Luchian,13
+2,Giverny; casa artistului,Claude Monet,13
+3,Impersie. Rasarit de soare,Claude Monet,13
+4,Olympia,Eduard Manet,14
+5,Marga,Vadim Tuodr,69
+6,Magdalena,Traian Basescu,69
+7,Dumitru,Klaus Iohanis,69
+8,Gheorghe,Klaus Jorgensen,69
+9,Hello World,Python,69
+10,Hey Yo,VS Code,69

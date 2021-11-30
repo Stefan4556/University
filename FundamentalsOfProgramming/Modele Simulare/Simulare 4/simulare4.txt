@@ -1,0 +1,10 @@
+1,Jacuzzi,basic silver gold,30
+2,Masaj,classic gold,100
+3,Sauna,premium gold,150
+4,Baie,basic,50
+5,Piscina,gold,200
+6,Namol,basic gold silver classic,52
+7,Pesti,silver,25
+8,Halate,basic,15
+9,Vestiar,basic silver premium gold,30
+10,Bar,premium,75
